@@ -1,0 +1,22 @@
+{
+  "name": "frontend-detik",
+  "version": "1.0.0",
+  "description": "assignment microsite detik",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lusxs/Detikcom_FrontendDesignAssignment_LusiaKaparang.git"
+  },
+  "author": "Lusia Kaparang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lusxs/Detikcom_FrontendDesignAssignment_LusiaKaparang/issues"
+  },
+  "homepage": "https://github.com/lusxs/Detikcom_FrontendDesignAssignment_LusiaKaparang#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
