@@ -7,3 +7,15 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
+
+/* Custom styles for the red asterisk in the placeholder */
+input::placeholder::after {
+  content: "*";
+  color: #f10f17; /* Red color code */
+  margin-left: 0.25rem;
+}
+
+/* Custom styles for the input's placeholder text color */
+::placeholder {
+  color: #f56565; /* Red color code */
+}
