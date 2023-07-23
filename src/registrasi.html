@@ -11,5 +11,211 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body></body>
+  <body>
+    <header class="relative">
+      <div class="hidden md:flex w-screen h-[80px] bg-primary">
+        <div
+          class="px-[100px] md:px-[80px] py-[15px] flex justify-between items-center w-full h-full"
+        >
+          <a href="./index.html">
+            <div class="flex items-center mr-4">
+              <img
+                src="../src/assets/logo_dbpc.png"
+                alt=""
+                class="md:w-36 lg:w-full"
+              />
+            </div>
+          </a>
+          <nav>
+            <div class="order-2 flex items-center gap-[30px]">
+              <ul class="flex gap-[30px]">
+                <li>
+                  <a href="#about" class="text-white md:text-sm lg:text-base"
+                    >About</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#mekanisme"
+                    class="text-white md:text-sm lg:text-base"
+                    >Mechanism</a
+                  >
+                </li>
+                <li>
+                  <a href="#latest" class="text-white md:text-sm lg:text-base"
+                    >Latest Update</a
+                  >
+                </li>
+              </ul>
+              <button>
+                <a
+                  href="./registrasi.html"
+                  class="bg-white rounded-full items-center py-[5px] px-[15px] lg:py-[10px] lg:px-[30px] text-primary font-semibold"
+                >
+                  Register</a
+                >
+              </button>
+            </div>
+          </nav>
+        </div>
+      </div>
+      <div class="relative">
+        <img src="./assets/background Header Title.png" class="md:w-full" />
+        <div class="absolute inset-0 flex items-center justify-center">
+          <h1
+            class="text-[27px] md:text-[42px] lg:text-[48px] font-bold text-white"
+          >
+            Registrasi
+          </h1>
+        </div>
+      </div>
+    </header>
+
+    <main class="">
+      <div
+        class="px-[30px] bg-white items-center w-[360px] h-[630px] md:w-[500px] md:h-[700px] lg:w-[640px] lg:h-[889px]"
+        style="margin: auto; display: flex"
+      >
+        <form
+          action=""
+          class="flex flex-col space-y-[18px] mt-[20px] justify-center"
+        >
+          <div class="">
+            <input
+              type="text"
+              placeholder="Nama Perusahaan*"
+              class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[300px] h-[22px] md:w-[420px] md:h-[30px] lg:w-[580px] lg:h-[42px] lg rounded-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Email*"
+              class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[300px] h-[22px] md:w-[420px] md:h-[30px] lg:w-[580px] lg:h-[42px] lg rounded-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300"
+            />
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Nomor Telepon*"
+              class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[300px] h-[22px] md:w-[420px] md:h-[30px] lg:w-[580px] lg:h-[42px] lg rounded-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300"
+            />
+            <p class="text-[#828282] text-[11px] md:text-[12px] lg:text-[13px]">
+              Isi hanya angka
+            </p>
+          </div>
+          <div>
+            <textarea
+              placeholder="Tentang Perusahaan (Max. 200 character)"
+              class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[300px] h-[65px] md:w-[420px] md:h-[80px] lg:w-[580px] lg:h-[95px] lg rounded-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300"
+            ></textarea>
+          </div>
+          <div class="flex flex-row">
+            <div class="">
+              <img
+                src="assets/Upload.png"
+                class="w-[185px] h-[130px] md:w-[210px] md:h-[180px] lg:w-[250px] lg:h-[230px]"
+                alt=""
+              />
+            </div>
+            <div class="">
+              <div class="ml-4 pt-8 md:pt-12 lg:pt-16" style="">
+                <ol
+                  class="ml-2 list-decimal text-[8px] md:text-[10px] md:text-[12px]"
+                >
+                  <li>Format file: .png, .jpg, .jpeg</li>
+                  <li>Maksimal ukuran file 200KB</li>
+                  <li>Hindari penggunaan logo berwarna putih</li>
+                  <li>Minimal lebar 300px</li>
+                </ol>
+              </div>
+            </div>
+          </div>
+          <div class="">
+            <div class="flex">
+              <input
+                type="text"
+                placeholder="Profil Perusahaan atau Deck (optional)"
+                class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[26px] h-[25px] md:w-[420px] h-[30px] lg:w-[580px] lg:h-[42px] lg rounded-s-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300 mr-1 flex-grow"
+              />
+              <button
+                class="px-2 py-0 my-0 bg-[#007CBD] text-white rounded-r-md mt-[3px] font-bold text-[6px] md:text-[9px] lg:text-[10px] h-[30px] lg:h-[42px]"
+              >
+                Upload file
+              </button>
+            </div>
+
+            <p class="text-[#828282] text-[8px] md:text-[11px] lg:text-[12px]">
+              Format file .pdf , maksimal size 20mb
+            </p>
+          </div>
+          <div>
+            <input
+              type="text"
+              placeholder="Link website*"
+              class="ring-1 ring-[#F8F8F8] px-2 py-1 w-[300px] h-[25px] md:w-[420px] h-[30px] lg:w-[580px] lg:h-[42px] lg rounded-md outline-none text-[10px] lg:text-[12px] focus:ring-teal-300"
+            />
+            <p class="text-[#828282] text-[8px] md:text-[11px] lg:text-[12px]">
+              Website, Sosial Media, dll. Sertakan protokol URL (https:// atau
+              http://).
+            </p>
+          </div>
+          <div class="flex gap-1 lg:gap-2">
+            <div
+              class="bg-[#C4C4C4] rounded-[2px] w-[10px] h-[8px] md:w-[9px] md:h-[9px] lg:w-[12px] lg:h-[12px] my-1"
+            ></div>
+            <p class="text[#071424] text-[9px] md:text-[10px] lg:text-[13px]">
+              Dengan menekan tombol "Daftar", Saya menyetujui syarat dan
+              ketentuan yang berlaku
+            </p>
+          </div>
+          <div class="flex justify-center items-center">
+            <button
+              class="bg-[#007CBD] text-white w-[90px] h-[10px] md:w-[125px] lg:w-[160px] rounded-md mt-[3px] font-bold text-[8px] md:text-[10px] lg:text-[12px] h-[30px] lg:h-[42px]"
+            >
+              Register
+            </button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+
+  <footer>
+    <div class="footer bg-[#007cbd]">
+      <div class="mx-[49px] py-[30px]">
+        <img
+          src="/src/assets/logo_dbpc.png"
+          alt="logo_f"
+          class="w-[130px] lg:w-[180px] lg:w-[200px]"
+        />
+        <div class="flex flex-col md:flex-row lg:flex-row mt-[30px] mb-5">
+          <div class="">
+            <h1 class="text-[12px] md:text-[14px] lg:text-[16px] text-white">
+              Detikfinance memberikan ruang kepada para startup di Indonesia
+              untuk menunjukkan, serta mempromosikan brand mereka untuk
+              mendapatkan perhatian dari venture capital atau angel investor
+            </h1>
+          </div>
+          <div class="w-[85px] md:w-[220px] lg:w-[170px] flex gap-6 py-4 my-1">
+            <a href="">
+              <img src="/src/assets/twitter_white.png" alt="" />
+            </a>
+            <a href="">
+              <img src="/src/assets/instagram_white.png" alt="" />
+            </a>
+            <a href="">
+              <img src="/src/assets/facebook_white.png" alt="" />
+            </a>
+          </div>
+        </div>
+        <hr class="mr-[49px]" />
+        <p
+          class="text-white text-[9px] md:text-[12px] lg:text-[14px] text-opacity-75 mt-5"
+        >
+          © 2023 Detikcom. All rights reserved
+        </p>
+      </div>
+    </div>
+  </footer>
 </html>
