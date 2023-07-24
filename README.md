@@ -6,7 +6,7 @@ Project ini menggunaka java-script dan tailwind, untuk itu saat sudah melakukan 
 perlu melakukan instalasi tailwind, sebagai berikut:
 
 1. Buka terminal dan run code dibawah ini
-   npm install -D tailwindcss
-   npx tailwindcss init
+   npm install -D tailwindcss //step 1
+   npx tailwindcss init  //step2
 
 2. Run program menggunakan live server 
